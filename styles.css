@@ -1,0 +1,103 @@
+.text1 {
+    grid-area: text1;
+    background-color: var(--mViolet);
+    border-radius: .5rem;
+    padding-block: 2.5rem;
+    padding-inline: 2.5rem;
+}
+
+.text1-information {
+    display: flex;
+    place-items: center;
+    gap: 1rem;
+}
+
+.text1-information img {
+    border-radius: 50%;
+    width: 3rem;
+    border: .2rem solid #bfa4e970;
+}
+
+.text1 .text1-title h1 {
+    font-size: 1.6rem;
+    font-family: "Barlow Semi Condensed";
+    margin-bottom: .1rem;
+    color: var(--white);
+    position: relative;
+    z-index: 20;
+}
+
+.text1 .text1-title span {
+    color: #ffffff80;
+    font-family: "Barlow Semi Condensed";
+    font-size: 1.2rem;
+}
+
+.text1 .text1-title {
+    position: relative;
+    z-index: auto;
+}
+
+.text1 .text1-title::before {
+    content: "";
+    display: block;
+    position: absolute;
+    background-image: url(/images/bg-pattern-quotation.svg);
+    width: 30rem;
+    height: 30rem;
+    background-repeat: no-repeat;
+    z-index: 1;
+    top: -1rem;
+    left: 30rem;
+}
+
+.text1 .paragraf1 {
+    font-family: "Barlow Semi Condensed";
+    margin-top: 1rem;
+    font-size: 2.2rem;
+    max-width: 48ch;
+    color: var(--white);
+    position: relative;
+    z-index: 20;
+}
+
+.text1 .paragraf2 {
+    font-family: "Barlow Semi Condensed";
+    margin-top: 1rem;
+    font-size: 1.45rem;
+    max-width: 73ch;
+    color: #ffffff80;
+    ;
+}
+
+@media screen and (max-width: 650px) {
+    .text1 .text1-title::before {
+        content: "";
+        display: block;
+        position: absolute;
+        background-image: url(/images/bg-pattern-quotation.svg);
+        width: 30rem;
+        height: 30rem;
+        background-repeat: no-repeat;
+        z-index: 1;
+        top: -2.5rem;
+        left: 12rem;
+    }
+    .text1 .paragraf1 {
+        font-family: "Barlow Semi Condensed";
+        margin-top: 1rem;
+        font-size: 2.2rem;
+        max-width: 25.5ch;
+        color: var(--white);
+        position: relative;
+        z-index: 20;
+    }
+    .text1 .paragraf2 {
+        font-family: "Barlow Semi Condensed";
+        margin-top: 1rem;
+        font-size: 1.45rem;
+        max-width: 37.5ch;
+        color: #ffffff80;
+        padding-right: 2rem;
+    }
+}
