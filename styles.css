@@ -231,3 +231,133 @@
         color: #19212e9c;
     }
 }
+
+.text4 {
+    grid-area: text4;
+    background-color: var(--vDarkBlackishBlue);
+    border-radius: .5rem;
+    padding-block: 2.5rem;
+    padding-inline: 2.5rem;
+}
+
+.text4-information {
+    display: flex;
+    place-items: center;
+    gap: 1rem;
+}
+
+.text4-information img {
+    border-radius: 50%;
+    width: 3rem;
+}
+
+.text4 .text4-title h2 {
+    font-size: 1.6rem;
+    font-family: "Barlow Semi Condensed";
+    margin-bottom: .1rem;
+    color: var(--white);
+}
+
+.text4 .text4-title span {
+    color: #ffffff80;
+    font-family: "Barlow Semi Condensed";
+    font-size: 1.2rem;
+}
+
+.text4 .paragraf1 {
+    font-family: "Barlow Semi Condensed";
+    margin-top: 1rem;
+    font-size: 2.2rem;
+    max-width: 48ch;
+    color: var(--white);
+}
+
+.text4 .paragraf2 {
+    font-family: "Barlow Semi Condensed";
+    margin-top: 1rem;
+    font-size: 1.45rem;
+    max-width: 70ch;
+    color: #ffffff80;
+}
+
+@media screen and (max-width: 650px) {
+    .text4 .paragraf1 {
+        font-family: "Barlow Semi Condensed";
+        margin-top: 1rem;
+        font-size: 2.2rem;
+        max-width: 26ch;
+        color: var(--white);
+    }
+    .text4 .paragraf2 {
+        font-family: "Barlow Semi Condensed";
+        margin-top: 1rem;
+        font-size: 1.45rem;
+        max-width: 39.9ch;
+        color: #ffffff80;
+    }
+}
+
+.text5 {
+    grid-area: text5;
+    background-color: var(--white);
+    border-radius: .5rem;
+    padding-block: 2.5rem;
+    padding-inline: 2.5rem;
+}
+
+.text5-information {
+    display: flex;
+    place-items: center;
+    gap: 1rem;
+}
+
+.text5-information img {
+    border-radius: 50%;
+    width: 3rem;
+}
+
+.text5 .text5-title h2 {
+    font-size: 1.6rem;
+    font-family: "Barlow Semi Condensed";
+    margin-bottom: .1rem;
+    color: var(--vDarkGrayBlue);
+}
+
+.text5 .text5-title span {
+    color: #19212e9c;
+    font-family: "Barlow Semi Condensed";
+    font-size: 1.2rem;
+}
+
+.text5 .paragraf1 {
+    font-family: "Barlow Semi Condensed";
+    margin-top: 1rem;
+    font-size: 2.2rem;
+    max-width: 20ch;
+    color: var(--vDarkGrayBlue);
+}
+
+.text5 .paragraf2 {
+    font-family: "Barlow Semi Condensed";
+    margin-top: 1rem;
+    font-size: 1.45rem;
+    max-width: 29ch;
+    color: #19212e9c;
+}
+
+@media screen and (max-width: 650px) {
+    .text5 .paragraf1 {
+        font-family: "Barlow Semi Condensed";
+        margin-top: 1rem;
+        font-size: 2.2rem;
+        max-width: 26ch;
+        color: var(--vDarkGrayBlue);
+    }
+    .text5 .paragraf2 {
+        font-family: "Barlow Semi Condensed";
+        margin-top: 1rem;
+        font-size: 1.45rem;
+        max-width: 39.6ch;
+        color: #19212e9c;
+    }
+}
